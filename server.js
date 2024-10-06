@@ -19,6 +19,8 @@ connectDB();
 
 // Security middleware
 app.use(helmet());
+
+// Cross origin connection add your frontend here
 app.use(cors());
 
 // Logging middleware (only in development)
